@@ -1,0 +1,142 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel-control-prev-icon {
+  background-color: #558c8f;
+  padding: 50px 20px;
+  border-radius: 20px;
+}
+
+.carousel-control-next-icon {
+  background-color: #558c8f;
+  padding: 50px 20px;
+  border-radius: 20px;
+}
+
+.nav {
+  padding: 25px;
+}
+
+.review-card {
+  width: 300px;
+}
+
+.signup {
+  text-decoration: none;
+  color: black;
+}
+
+.featuredItem {
+  position: absolute;
+  padding: 0 50px 50px 50px;
+}
+
+.featureHeader {
+  margin: 50px 0 20px 0;
+  text-align: center;
+  padding: 0;
+}
+
+.logout a {
+  color: #558c8f;
+}
+
+.dashboard {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.myItems a {
+  background-color: #558c8f;
+  padding: 5px 25px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.myItems a:hover {
+  background-color: white;
+  padding: 5px 25px;
+  border-radius: 10px;
+  border: #558c8f 2px solid;
+  color: #558c8f;
+  text-decoration: none;
+}
+
+#basic-navbar-nav {
+  border-radius: 25px;
+}
+
+.FormGroup {
+  margin: 0 15px 20px;
+  padding: 0;
+  border-style: none;
+  background-color: #558c8f;
+  will-change: opacity, transform;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 #829fff;
+  border-radius: 4px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.payForm {
+  background-color: #212529;
+  height: 400px;
+  margin-top: 10%;
+  padding: 125px;
+  position: relative;
+}
+.FormRow {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: auto;
+  border-top: 1px solid #558c8f;
+}
+
+.StripeElement--webkit-autofill {
+  background: transparent !important;
+}
+
+.StripeElement {
+  width: 100%;
+  padding: 11px 15px 11px 0;
+}
+.payButton {
+  display: block;
+  font-size: 16px;
+  width: calc(100% - 30px);
+  height: 40px;
+  margin: 40px 15px 0;
+  background-color: #0d6efd;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 #ffb9f6;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+  will-change: transform, background-color, box-shadow;
+  border: none;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.payButton:active {
+  background-color: #0d6efd;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 #e298d8;
+  transform: scale(0.99);
+}
